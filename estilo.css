@@ -1,0 +1,45 @@
+body{
+    background: silver;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+.encabezado{
+	list-style: none;
+	padding: 0;
+	background: royalblue;
+	width: 70%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.encabezado li a{
+	text-decoration: none;
+	color:white;
+	padding: 20px;
+	display: block;
+}
+
+.encabezado li{
+	display: inline-block;
+	font-size: 18px;
+}
+
+.encabezado li a:hover{
+	background: silver;
+}
+
+.publi, .comparacion, .vs, .cursos{
+	text-align: center;
+	justify-content: center;
+}
+
+footer{
+	margin-top: -10px;
+	width: 100%;
+	padding: 50px;
+	background: blue;
+	text-align: center;
+	color: white;
+	position: relative;
+}
