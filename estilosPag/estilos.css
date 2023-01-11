@@ -104,6 +104,15 @@ body{
 .vs img {
    display: flex;
    margin: 0 auto;
+   width: 700px;
+   height: 450px;
+}
+
+@media screen and (max-width:720px) {
+    .vs img{
+        height: 200px;
+        width: 400px;
+    }
 }
 
 table{
@@ -146,4 +155,126 @@ tr:nth-child(even){
     position: relative;
     text-align: center;
     top: 55px;
+}
+
+/*Aqui empeiza el código CSS para la página 2*/
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    color: blue;
+    font-size: 24px;
+}
+
+.titulo1{
+    color: darkblue;
+    font-size: 30px;
+}
+
+.tabla2{
+   background-color: lightblue;
+   width: 100%;
+   text-align: justify;
+   border-collapse:collapse ;
+   padding: 20px;
+}
+
+tr, td{
+    border-bottom: solid 5px darkslategrey;
+    text-transform: uppercase;
+}
+
+th{
+    color: darkblue;
+    background-color: lightsteelblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.vs2{
+    display: flex;
+    flex-direction: column;
+}
+
+.vs2 .img1{
+    margin: 0 auto;
+    padding: 10px;
+    
+    width: 450px;
+    height: 620px;
+}
+
+.vs2 .img2{
+    margin: 0 auto;
+    padding: 10px;
+    
+    width: 550px;
+    height: 320px;
+}
+
+@media screen and (max-width:720px){
+    .vs2 .img1{
+        width: 360px;
+        height: 520px;
+    }
+
+    .vs2 .img2{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+.card{
+    border-radius: 10px;
+    background-color: darkslategrey;
+    padding: 15px;
+    color: white;
+    text-align: justify;
+}
+
+/*aqui empieza la 3ra pagina*/
+
+.contenedor-herr{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+.carta{
+    background-color: darkslategrey;
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.carta p{
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.carta h3{
+    text-align: center;
+    color: white;
+}
+
+.contenedor-herr button{
+    padding: 10px 10px;
+    border-radius: 20px;
+    background: none;
+    color: white;
+
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 18px;
+    border-color: white;
+    font-weight: bold;
 }
