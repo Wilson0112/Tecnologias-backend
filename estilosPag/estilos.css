@@ -1,3 +1,5 @@
+/*Aqui empieza la primera hoja*/
+
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -61,17 +63,60 @@ body{
         
     }
 }
+
+.indice{
+    position: relative;
+    top: 3rem;
+    background-color: darkslategrey;
+
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-bottom: 20vh;
+    
+}
+
+.indice a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.indice h3{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 1rem;
+}
 .backend{
     text-align: justify;
-    margin: 0 20px;
+    margin: -55px 20px;
+
+}
+
+.flecha{
+    width: 120px;
+    height: 90px;
+
+    position: relative;
+    top: 2rem;
+
+    background-color: darkslategrey;
+    border-radius: 100%;
+    padding: 10px;
 }
 
 .contenedor{
-    margin: auto;
+    margin: 30px auto;
     max-width: 1200px;
 
     background-color: lightgrey;
-    padding: 0 20px;
+    padding: 40px 20px;
+}
+
+caption{
+    font-weight: bold;
 }
 
 .publi{
@@ -86,7 +131,7 @@ body{
     background-size: cover;
 }
 
-.publi h3{
+.publi h2{
     text-align: center;
     margin: 0 auto;
 
@@ -99,7 +144,7 @@ body{
     text-align: center;
     position: relative;
     top: 2rem;
-    box-sizing: border-box;
+    
 }
 .vs img {
    display: flex;
@@ -118,9 +163,13 @@ body{
 table{
    background-color: white;
    text-align: justify;
-   width: 100%;
+   width: 80%;
+   margin: 0 auto;
    border-collapse: collapse;
    border-bottom: solid black 5px;
+
+   position: relative;
+   top: 2rem;
 }
 
 tr, td{
@@ -253,9 +302,16 @@ th{
     padding: 0 20px;
 }
 
+@media screen and (max-width:720px){
+    .carta{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
 .carta p{
     color: white;
-    text-align: left;
+    text-align: justify;
     text-transform: uppercase;
     font-size: 18px;
 }
@@ -277,4 +333,99 @@ th{
     font-size: 18px;
     border-color: white;
     font-weight: bold;
+    box-shadow: 2px 2px 10px white;
 }
+
+.herr{
+    border: solid 5px darkslategrey;
+    width: 61%;
+    display: flex;
+    margin: 30px auto;
+    padding: 5px;
+    background-color: lightslategray;
+    color: darkblue;
+}
+
+.video1{
+    display: flex;
+    margin: 0 auto;
+    width: 340px; 
+    height: 220px;
+
+    background-color: darkslategrey;
+    padding: 20px 20px;
+    width: 50%;
+    height: 20%;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.seccion-video h3{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 2rem;
+}
+
+.seccion-video{
+    background-color: darkslategrey;
+    margin: 40px auto;
+}
+
+/*Aqui comienca la cuarta hoja*/
+
+.programando{
+    height: 240px;
+    width: 340px;
+
+    display: flex;
+    margin: 0 auto;
+
+    border: solid blue 4px;
+}
+
+.ejemplo1{
+    font-size: 18px;
+    color: darkblue;
+}
+
+.plataformas{
+    color: darkblue;
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 30px;
+
+}
+section .ejemplo{
+    background-color: darkslategrey;
+    border-radius: 10px;
+    border: solid black 4px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+ol{
+    background-color: lightskyblue;
+}
+
+.usos li{
+    padding: 10px;
+}
+
+.usos p{
+    background-color: lightslategrey;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+

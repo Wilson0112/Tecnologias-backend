@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilosPag/estilos.css">
     <title>Página 1</title>
 </head>
+
 <body>
     
     <header>
@@ -26,13 +27,23 @@
     </header>
     
     <aside class="publi">
-        <h3>Backend vs frontend, ¿Qué es mejor?</h3>
+        <h2>Backend vs frontend, ¿Qué es mejor?</h2>
     </aside>
-    
 
     <div class="contenedor">
-        <section class="backend">
-            <h2><br><br>Backend vs frontend conceptos</h2>
+
+        <section id="tabla-contenido" class="indice">
+
+            <h3>Contenido</h3>
+         
+            <a href="#vs">Conceptos generales</a> <br> <br>
+            <a href="#tabla">Tabla comparaciones</a>
+
+        </section>
+
+
+        <section id="vs" class="backend">
+            <h2 ><br><br>Backend vs frontend conceptos</h2>
             <p>
                 <b>Backend</b> es el termino para señalar la implementación de los <strong>lenguajes de programación</Strong> del lado del servidor. Se encarga de la interacción web, almacenan la información en el servidor y se conectan a una base de datos para mostrar y actualizar su contenido conforme para el tiempo.  	
             </p>
@@ -50,11 +61,14 @@
     </section>
     
     
-        <section class="vs">
-            <h2 class="comparacion">Comparaciones entre Backend y Frontend</h2>
+        <section  class="vs">
+            <h3 class="comparacion">Comparaciones entre Backend y Frontend</h3>
             <img src="img/tecnoback.jpg" alt="comparacion">
+            <span>imagen ilustrativa comparacion entre frontend y backend</span>
 
-            <br> <table>
+            <br> <table id="tabla">
+
+                <caption>Características backend y FronEnd</caption>
                 <thead>
                     <tr>
                         <th>Backend</th>
@@ -107,7 +121,11 @@
         
                 </tbody>
             </table> <br><br>
+
+
         </section>
+
+        <a href="#tabla-contenido"><img class="flecha" src="img/flecha2.png" alt="flecha"></a>
     
         
     </div>
