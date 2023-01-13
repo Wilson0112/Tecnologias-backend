@@ -4,68 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilosPag/estilos.css">
     <title>Página 5</title>
 </head>
 <body>
     
-    <header class="encabezado">
-        <h1>TECNOPOLIS</h1>
+    <header>
+        <section class="logo">
+            <h1>TECNOPOLIS</h1>
+            <img src="img/logo.jpg" alt="logo">
+        </section>
             <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="lenguajes.html">lenguajes backend</a></li>
-                    <li><a href="herr.html">Herramientas</a></li>
-                    <li><a href="manejo.html">Ejemplos uso</a></li>
-                    <li><a href="contactos.html">Contactos</a></li>
+                <ul class="items">
+                    <li class="item"><a class="link" href="index.html">Inicio</a></li>
+                    <li class="item"><a class="link" href="leng.html">lenguajes backend</a></li>
+                    <li class="item"><a class="link" href="herr.html">Herramientas</a></li>
+                    <li class="item"><a class="link" href="manejo.html">Ejemplos uso</a></li>
+                    <li class="item"><a class="link" href="contactos.html">Contactos</a></li>
                 </ul>
             </nav>
     </header>
-    <section>
-        <h2><br><br>Si te gustado mi contenido puedes apoyarme siguiendome en cualquiera de estas redes sociales</h2><br>
-
-        <p><b>Facebook</b>Tenopolis S.A<br></p><br>
-        <p><b>Twitter</b>@tecnopolis<br></p><br>
-        <p><b>youtube</b>Tenopolis innovación<br></p><br>
-</section>
-
-<h4>Logeate para acceder a información sobre cursos html y dino que te parecio la Página</h4>
-<form>
-
-    <label>Crea un nombre de usuario</label><br>
-    <input type="text" name="usuario" id="usuario"><br>
-
-    <label>Ingresa un correo electronico</label><br>
-    <input type="email" name="Cédula" id="Cédula"><br>
-
-    <label>Crea una contraseña</label><br>
-    <input type="password" name="Conttraseña" id="Conttraseña"><br>
-
-    <label>¿Que te parecio esta página web?</label><br>
-    <input type="text" placeholder="Dejanos tu opinión" id="opinión"><br>
-
-    <label>Califique su experiencia en un rango del 1 al 10</label><br>
-    <input type="number" name="Calificación" id="Calificación"><br>
-
-    <input type="submit">
-
-</form><br>
-
-<article>
-    <h2>Misión</h2>
-    <p>Nuestra misión es proveer a programadores novatos y senior conocimientos y herramientas útiles para sus áreas laborales <br>
-       e incentivar al publico general a adentrarse más en el mundo de la informática y las ciencias de la información. 
-         </p>
-
-         <h2>Visión</h2>
-         <p>Proporcionar al público acceso a toda la información que necesiten con solo un clic ofreciendo un gran catálogo de lenguajes, <br>
-            contenido interactivo y herramientas de programación
-              </p>
-</article><br><br>
-
-        <footer>
-            <h4>copyright todos los derechos reservados / Desarrollado por: Wilson Ramos</h4>
-        </footer>
     
+
+    <div class="contenedor2">
+        
+        <section id="tabla-contenido" class="indice2">
+
+            <h2 >Contenido</h2> <br>
+            <ul>
+                <li><a href="#redes">Redes sociales</a></li>
+                <li><a href="#formulario-login">Logearse</a></li>
+                <li><a href="#mision-vision">Misión y Visión</a></li>
+            </ul>
+        </section>
+
+        <section id="redes" class="redes-sociales">
+            <h2><br><br>Si te gustado mi contenido puedes apoyarme siguiendome en cualquiera de estas redes sociales</h2><br>
+
+            <ul>
+                <li class="facebook">Tecnopolis S.A</li>
+                <li class="Twitter">@tecnopolis</li>
+                <li class="youtube">Tenopolis innovación</li>
+            </ul>
+
+        </section>
+    
+    <h2 class="logear">Logeate para acceder a información sobre cursos html y dinos que te parecio la Página</h2>
+
+    <form class="formulario" >
+
+        <h2 id="formulario-login">Login</h2>
+    
+        <label for="usuario">Crea un nombre de usuario</label><br>
+        <input class="ingeso-datos" type="text" name="usuario" id="usuario"><br>
+    
+        <label for="correo">Ingresa un correo electronico</label><br>
+        <input class="ingeso-datos" type="email" name="Cédula" id="correo"><br>
+    
+        <label for="contraseña">Crea una contraseña</label><br>
+        <input  class="ingeso-datos" type="password" name="contraseña" id="contraseña" title="contraseña"><br>
+    
+        <label for="opinión">¿Que te parecio esta página web?</label><br>
+        <input  class="ingeso-datos" type="text" placeholder="Dejanos tu opinión" id="opinión"><br>
+    
+        <label for="Calificación">Califique su experiencia en un rango del 1 al 10</label><br>
+        <input class="ingeso-datos" type="number" name="Calificación" id="Calificación"><br>
+    
+        <input class="boton-enviar" type="submit">
+    
+    </form><br>
+    
+    <article id="mision-vision" class="mision-vision">
+        <h3>Misión</h3>
+
+        <ul>
+            <li>Nuestra misión es proveer a programadores novatos y senior conocimientos y herramientas útiles para sus áreas laborales</li>
+            <li>incentivar al publico general a adentrarse más en el mundo de la informática y las ciencias de la información. </li>
+        </ul>
+        <h3>Visión</h3>    
+        <ul>
+            <li>Proporcionar al público acceso a toda la información que necesiten con solo un clic ofreciendo un gran catálogo de lenguajes</li>
+            <li> contenido interactivo y herramientas de programación </li>
+        </ul>
+    
+            
+           
+    </article><br><br>
+
+    <a href="#tabla-contenido"><img class="flecha2" src="img/flecha2.png" alt="flecha"></a>
+
+    </div>
+
+    <footer class="pie-pagina">
+        <h4> &copy; copyright todos los derechos reservados | Desarrollado por: <a href="mailto:wsramos@utpl.edu.ec">Wilson Ramos</a></h4>
+    </footer>
 </body>
 </html>
