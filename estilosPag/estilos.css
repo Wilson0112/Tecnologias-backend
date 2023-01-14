@@ -130,7 +130,7 @@ body{
     top: 2rem;
 
     background-color: darkslategrey;
-    border-radius: 100%;
+    border-radius: 50%;
     padding: 10px;
 
     
@@ -637,52 +637,3 @@ ol{
     background-color: lightgrey;
     padding: 100px 20px;
 }
-
-.flecha2{
-    width: 120px;
-    height: 90px;
-
-    position: relative;
-    top: 5rem;
-
-    background-color: darkslategrey;
-    border-radius: 100%;
-    padding: 10px; 
-}
-
-.indice2{
-    position: relative;
-    top: -3rem;
-    background-color: darkslategrey;
-
-    width: 45%;
-    border-radius: 20px;
-    padding: 20px 20px;
-    margin-bottom: 20vh;
-}
-
-.indice2 li{
-    list-style: none;
-    padding: 10px;
-}
-
-.indice2 a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 20px;
-}
-
-.indice2 h2{
-    color: white;
-    font-size: 18px;
-    text-align: left;
- }
-
-
-
-
-
-
-
-
